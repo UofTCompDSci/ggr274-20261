@@ -1,0 +1,30 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: jupyter-book/index
+parts:
+  - caption: Quick Links
+    chapters:
+    - file: syllabus/ggr274_syllabus.ipynb
+      title: Course Syllabus
+    - url: https://q.utoronto.ca/courses/422508/announcements
+      title: Announcements
+    - url: https://piazza.com/class/m5l5abtof4o78y/post/6
+      title: Piazza
+    
+  - caption: Resources
+    chapters:
+    - file: guides/jupyterhub_guide.ipynb
+      title: JupyterHub Guide
+    - file: guides/markus_guide.ipynb
+      title: MarkUs Guide
+
+  
+  - caption: Week 1
+    chapters:
+    - url: https://q.utoronto.ca/courses/380232/files/?preview=35527981
+      title: Slides
+    - file: weekly-materials/week01/lecture/Class1_GGR274_KR.ipynb
+      title: Prof. Reid's Notebook  
+
