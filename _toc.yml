@@ -23,8 +23,8 @@ parts:
   
   - caption: Week 1
     chapters:
-    - url: https://q.utoronto.ca/courses/380232/files/?preview=35527981
-      title: Slides
+    - url: https://q.utoronto.ca/courses/422508/files?preview=41390906
+      title: Prof. Ramiller's Slides
     - file: weekly-materials/week01/lecture/Class1_GGR274_KR.ipynb
       title: Prof. Reid's Notebook  
 
