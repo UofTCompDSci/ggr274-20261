@@ -25,6 +25,8 @@ parts:
     chapters:
     - url: https://q.utoronto.ca/courses/422508/files?preview=41390906
       title: Prof. Ramiller's Slides
-    - file: weekly-materials/week01/lecture/Class1_GGR274_KR.ipynb
+    - file: weekly-materials/week01/lecture/Week01_notes_KR.ipynb
       title: Prof. Reid's Notebook  
+    - file: weekly-materials/week01/homework/Homework_1.ipynb
+      title: Homework 1
 
