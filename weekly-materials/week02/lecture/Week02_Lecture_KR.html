@@ -59,12 +59,12 @@
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'weekly-materials/week02/lecture/Week02_Notes_KR';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'weekly-materials/week02/lecture/Week02_Lecture_KR';</script>
     <link rel="icon" href="../../../_static/favicon.png"/>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Lecture 2: Introduction to Python Programming, Part 1" href="Week02_Lecture_KR.html" />
-    <link rel="prev" title="GG274 Homework 1: A Python Intro" href="../../week01/homework/Homework_1.html" />
+    <link rel="next" title="GGR274 Lab 2: Introduction to Programming, Part 1" href="../lab/Lab_2.html" />
+    <link rel="prev" title="Lecture 2: Introduction to Python Programming, Part 1" href="Week02_Notes_KR.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -196,8 +196,8 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Week 2</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Prof. Reid's Notebook</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Week02_Lecture_KR.html">Prof. Reid's Lecture Notebook (a short version of the Notes)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week02_Notes_KR.html">Prof. Reid's Notebook</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Prof. Reid's Lecture Notebook (a short version of the Notes)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../lab/Lab_2.html">Lab 2</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../homework/Homework_2.html">Homework 2</a></li>
 </ul>
@@ -254,7 +254,7 @@
       
       
       
-      <li><a href="https://jupyter.utoronto.ca/hub/user-redirect/git-pull?repo=https%3A//github.com/UofTCompDSci/ggr274-20261&urlpath=tree/ggr274-20261/weekly-materials/week02/lecture/Week02_Notes_KR.ipynb&branch=main" target="_blank"
+      <li><a href="https://jupyter.utoronto.ca/hub/user-redirect/git-pull?repo=https%3A//github.com/UofTCompDSci/ggr274-20261&urlpath=tree/ggr274-20261/weekly-materials/week02/lecture/Week02_Lecture_KR.ipynb&branch=main" target="_blank"
    class="btn btn-sm dropdown-item"
    title="Launch on JupyterHub"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -285,7 +285,7 @@
       
       
       
-      <li><a href="../../../_sources/weekly-materials/week02/lecture/Week02_Notes_KR.ipynb" target="_blank"
+      <li><a href="../../../_sources/weekly-materials/week02/lecture/Week02_Lecture_KR.ipynb" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -379,7 +379,7 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives-for-today">Learning objectives for today</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#review-data-types">Review: data types</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#review-functions">Review: functions</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#text-data-or-strings">Text data or “Strings”</a></li>
@@ -409,7 +409,7 @@ document.write(`
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Exercise Break</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Learning objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning objectives</a></li>
 </ul>
             </nav>
         </div>
@@ -423,32 +423,8 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="lecture-2-introduction-to-python-programming-part-1">
 <h1>Lecture 2: Introduction to Python Programming, Part 1<a class="headerlink" href="#lecture-2-introduction-to-python-programming-part-1" title="Link to this heading">#</a></h1>
-<section id="learning-objectives">
-<h2>Learning objectives<a class="headerlink" href="#learning-objectives" title="Link to this heading">#</a></h2>
-<p>Last lecture we learned how to:</p>
-<ul class="simple">
-<li><p>Identify and describe values of different types in Python code (<code class="docutils literal notranslate"><span class="pre">int</span></code>, <code class="docutils literal notranslate"><span class="pre">float</span></code>, <code class="docutils literal notranslate"><span class="pre">bool</span></code>, and <code class="docutils literal notranslate"><span class="pre">str</span></code>)</p></li>
-<li><p>Perform simple computations on these values</p></li>
-<li><p>Store values and the results of computations in variables</p></li>
-<li><p>Run Python code and display results in a Jupyter notebook (like this one!)</p></li>
-</ul>
-<p>We learned about:</p>
-<ul class="simple">
-<li><p>Operations we can perform on different data types</p>
-<ul>
-<li><p>Arithmetic: <code class="docutils literal notranslate"><span class="pre">+</span></code>, <code class="docutils literal notranslate"><span class="pre">-</span></code>, <code class="docutils literal notranslate"><span class="pre">*</span></code>, <code class="docutils literal notranslate"><span class="pre">/</span></code></p></li>
-<li><p>Comparison: <code class="docutils literal notranslate"><span class="pre">==</span></code>, <code class="docutils literal notranslate"><span class="pre">!=</span></code>, <code class="docutils literal notranslate"><span class="pre">&lt;</span></code>, <code class="docutils literal notranslate"><span class="pre">&lt;=</span></code>, <code class="docutils literal notranslate"><span class="pre">&gt;</span></code>, <code class="docutils literal notranslate"><span class="pre">&gt;=</span></code></p></li>
-<li><p>Boolean (logic): <code class="docutils literal notranslate"><span class="pre">and</span></code>, <code class="docutils literal notranslate"><span class="pre">or</span></code>, <code class="docutils literal notranslate"><span class="pre">not</span></code></p></li>
-</ul>
-</li>
-<li><p>Functions</p>
-<ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">len</span></code></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">type</span></code></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">abs</span></code></p></li>
-</ul>
-</li>
-</ul>
+<section id="learning-objectives-for-today">
+<h2>Learning objectives for today<a class="headerlink" href="#learning-objectives-for-today" title="Link to this heading">#</a></h2>
 <p>In this lecture, we will learn about:</p>
 <ul class="simple">
 <li><p>String methods</p>
@@ -464,11 +440,6 @@ document.write(`
 <li><p>Conditional statements (<code class="docutils literal notranslate"><span class="pre">if</span></code> statements) to control how Python is executed</p></li>
 <li><p>Loops, specifically <code class="docutils literal notranslate"><span class="pre">for</span></code> loops to repeat operations multiple times.</p></li>
 </ul>
-<p>You will also learn to:</p>
-<ul class="simple">
-<li><p>“Reset” Python in your notebook</p></li>
-<li><p>Read in data from files</p></li>
-</ul>
 </section>
 <section id="review-data-types">
 <h2>Review: data types<a class="headerlink" href="#review-data-types" title="Link to this heading">#</a></h2>
@@ -477,22 +448,6 @@ document.write(`
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Try out a few different types and operations on the types</span>
 <span class="mi">3</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># We talked about how strings could be concatenated together using the + operator</span>
-<span class="n">new_word</span> <span class="o">=</span> <span class="s1">&#39;suit&#39;</span> <span class="o">+</span> <span class="s1">&#39;case&#39;</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">new_word</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># But what about other operators using strings?</span>
 </pre></div>
 </div>
 </div>
@@ -508,8 +463,7 @@ document.write(`
 <section id="text-data-or-strings">
 <h2>Text data or “Strings”<a class="headerlink" href="#text-data-or-strings" title="Link to this heading">#</a></h2>
 <p>We introduced strings last week and will add on this week.</p>
-<p><code class="docutils literal notranslate"><span class="pre">str</span></code>, short for <strong>string</strong>, is a type of data for representing text.
-A string is a sequence of <em>characters</em>, where each character could be:</p>
+<p>A string is a sequence of <em>characters</em>, where each character could be:</p>
 <ul class="simple">
 <li><p>English letters (a, b, c)</p></li>
 <li><p>numeric digits (0, 1, 2, etc.)</p></li>
@@ -529,16 +483,6 @@ A string is a sequence of <em>characters</em>, where each character could be:</p
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;Dark chocolate is the best.&quot;</span>
-</pre></div>
-</div>
-</div>
-</div>
-<p>This comparison is <em>case-sensitive</em>:</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Remember that the double equals (==) is used to test for equality</span>
-<span class="c1"># The single equals is used for assignment statements</span>
-<span class="s2">&quot;Hello&quot;</span> <span class="o">==</span> <span class="s2">&quot;hello&quot;</span>
 </pre></div>
 </div>
 </div>
@@ -1120,8 +1064,8 @@ A string is a sequence of <em>characters</em>, where each character could be:</p
 </div>
 </div>
 </section>
-<section id="id2">
-<h2>Learning objectives<a class="headerlink" href="#id2" title="Link to this heading">#</a></h2>
+<section id="learning-objectives">
+<h2>Learning objectives<a class="headerlink" href="#learning-objectives" title="Link to this heading">#</a></h2>
 <p>In this lecture, you learned to:</p>
 <ul class="simple">
 <li><p>Identify and describe values of different types in Python code</p>
@@ -1175,20 +1119,20 @@ A string is a sequence of <em>characters</em>, where each character could be:</p
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../../week01/homework/Homework_1.html"
+       href="Week02_Notes_KR.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">GG274 Homework 1: A Python Intro</p>
+        <p class="prev-next-title">Lecture 2: Introduction to Python Programming, Part 1</p>
       </div>
     </a>
     <a class="right-next"
-       href="Week02_Lecture_KR.html"
+       href="../lab/Lab_2.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Lecture 2: Introduction to Python Programming, Part 1</p>
+        <p class="prev-next-title">GGR274 Lab 2: Introduction to Programming, Part 1</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -1208,7 +1152,7 @@ A string is a sequence of <em>characters</em>, where each character could be:</p
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives-for-today">Learning objectives for today</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#review-data-types">Review: data types</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#review-functions">Review: functions</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#text-data-or-strings">Text data or “Strings”</a></li>
@@ -1238,7 +1182,7 @@ A string is a sequence of <em>characters</em>, where each character could be:</p
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Exercise Break</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Learning objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning objectives</a></li>
 </ul>
   </nav></div>
 
