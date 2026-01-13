@@ -41,3 +41,8 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./_build/html
+
+    - name: Debug GITHUB_TOKEN Permissions
+    run: | echo "Inspecting token..."
+    curl -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" https://token.actions.githubusercontent.com/.well-known/openid-configuration
+
