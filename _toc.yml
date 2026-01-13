@@ -33,7 +33,9 @@ parts:
   - caption: Week 2
     chapters:
     - file: weekly-materials/week02/lecture/Week02_Notes_KR.ipynb
-      title: "Prof. Reid's Notebook"  
+      title: "Prof. Reid's Notebook"
+    - file: weekly-materials/week02/lecture/Week02_Lecture_KR.ipynb
+      title: "Prof. Reid's Lecture Notebook (a short version of the Notes)"
     - file: weekly-materials/week02/lab/Lab_2.ipynb
       title: Lab 2
     - file: weekly-materials/week02/homework/Homework_2.ipynb
