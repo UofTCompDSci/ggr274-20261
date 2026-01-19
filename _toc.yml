@@ -41,6 +41,7 @@ parts:
     - file: weekly-materials/week02/homework/Homework_2.ipynb
       title: "Homework 2"
 
+
   - caption: Week 3
     chapters:
     - file: weekly-materials/week03/lecture/Week03_Lecture_AR.ipynb
