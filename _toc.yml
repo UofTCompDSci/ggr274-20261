@@ -46,6 +46,12 @@ parts:
     chapters:
     - file: weekly-materials/week03/lecture/Week03_Notes_KR.ipynb
       title: "Prof. Reid's Notebook"
+    - file: weekly-materials/week03/lecture/Week03_Lecture_KR.ipynb
+      title: "Prof. Reid's Lecture Notebook"
     - file: weekly-materials/week03/lecture/Week03_Lecture_AR.ipynb
       title: "Prof. Ramiller's Notebook"
+    - file: weekly-materials/week03/lab/Lab_3.ipynb
+      title: "Lab 3"
+    - file: weekly-materials/week03/homework/Homework_3.ipynb
+      title: "Homework 3"
 
