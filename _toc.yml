@@ -55,3 +55,8 @@ parts:
     - file: weekly-materials/week03/homework/Homework_3.ipynb
       title: "Homework 3"
 
+  - caption: Week 4
+    chapters:
+    - file: weekly-materials/week04/lecture/Week04_Lecture_AR.ipynb
+      title: "Prof. Ramiller's Notebook"
+
