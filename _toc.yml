@@ -59,7 +59,13 @@ parts:
     chapters:
     - file: weekly-materials/week04/lecture/Week04_Notes_KR.ipynb
       title: "Prof. Reid's Notebook"
+    - file: weekly-materials/week04/lecture/Week04_Lecture_KR.ipynb
+      title: "Prof. Reid's Lecture Notebok"
+    - file: weekly-materials/week04/lecture/Week04_Example_KR.ipynb
+      title: "Prof. Reid's Example from Classroom"
     - file: weekly-materials/week04/lecture/Week04_Lecture_AR.ipynb
       title: "Prof. Ramiller's Notebook"
     - file: weekly-materials/week04/lab/Lab_4.ipynb
       title: "Lab 4"
+    - file: weekly-materials/week04/homework/Homework_4.ipynb
+      title: "Homework 4"
