@@ -74,5 +74,7 @@ parts:
     chapters:
     - file: weekly-materials/week05/lecture/Week05_Notes_KR.ipynb
       title: "Prof. Reid's Notebook"
+    - file: weekly-materials/week05/lecture/Week05_Lecture_AR.ipynb
+      title: "Prof. Ramiller's Notebook"
     - file: weekly-materials/week05/lab/Lab_5.ipynb
       title: "Lab 5"
