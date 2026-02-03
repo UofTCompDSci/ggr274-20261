@@ -78,3 +78,6 @@ parts:
       title: "Prof. Ramiller's Notebook"
     - file: weekly-materials/week05/lab/Lab_5.ipynb
       title: "Lab 5"
+    - file: weekly-materials/week05/homework/Homework_5.ipynb
+      title: "Homework 5"
+      
