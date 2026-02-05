@@ -81,7 +81,7 @@ parts:
     - file: weekly-materials/week05/homework/Homework_5.ipynb
       title: "Homework 5"
       
-  - caption: Week 5
+  - caption: Week 6
     chapters:
     - file: midterm/MidtermTopics.ipynb
       title: "Midterm Topics"
