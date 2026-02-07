@@ -85,7 +85,8 @@ parts:
     chapters:
     - file: midterm/MidtermTopics.ipynb
       title: "Midterm Topics"
-    - title: "Midterm Practice"
+    - file: midterm/practice/practice.md
+      title: "Midterm Practice"
       sections:
       - file: midterm/practice/string_methods_practice.ipynb
         title: Strings
