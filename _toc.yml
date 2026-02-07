@@ -85,3 +85,21 @@ parts:
     chapters:
     - file: midterm/MidtermTopics.ipynb
       title: "Midterm Topics"
+    - title: "Midterm Practice"
+      sections:
+      - file: midterm/practice/string_methods_practice.ipynb
+        title: Strings
+      - file: midterm/practice/string_methods_practice_solutions.ipynb
+        title: Strings solutions
+      - file: midterm/practice/python_lists_practice.ipynb
+        title: Lists
+      - file: midterm/practice/python_lists_practice_solutions.ipynb
+        title: Lists solutions
+      - file: midterm/practice/python_dictionaries_practice.ipynb
+        title: Dictionaries
+      - file: midterm/practice/python_dictionaries_practice_solutions.ipynb
+        title: Dictionaries solutions
+      - file: midterm/practice/basic_pandas_practice.ipynb
+        title: Pandas
+      - file: midterm/practice/basic_pandas_practice_solutions.ipynb
+        title: Pandas
