@@ -26,6 +26,10 @@ parts:
       title: DRAFT Final Project Instructions
     - file: project/proposal/GGR274_Project_Proposal.ipynb
       title: DRAFT Final Project Proposal
+    - file: project/data/GGR274_Final_Project_Data.ipynb
+      title: DRAFT Final Project Data Guide
+    - file: project/data/GGR274_Project_Template.ipynb
+      title: DRAFT Final Project Template
   
   - caption: Week 1
     chapters:
