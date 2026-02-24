@@ -109,3 +109,5 @@ parts:
     chapters:
     - file: weekly-materials/week07/lecture/Week07_Notes_KR.ipynb
       title: "Prof. Reid's Notebook"
+    - file: weekly-materials/week07/lecture/Week07_Lecture_AR.ipynb
+      title: "Prof. Ramiller's Notebook"
