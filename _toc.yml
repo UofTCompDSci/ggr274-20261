@@ -20,6 +20,12 @@ parts:
     - file: guides/markus_guide.ipynb
       title: MarkUs Guide
 
+  - caption: Final Project
+    chapters:
+    - file: project/GGR274_Final_Project_Instruction.ipynb
+      title: DRAFT Final Project Instructions
+    - file: project/proposal/GGR274_Project_Proposal.ipynb
+      title: DRAFT Final Project Proposal
   
   - caption: Week 1
     chapters:
