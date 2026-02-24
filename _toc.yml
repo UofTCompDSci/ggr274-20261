@@ -104,3 +104,8 @@ parts:
         title: Pandas
       - file: midterm/practice/basic_pandas_practice_solutions.ipynb
         title: Pandas
+
+  - caption: Week 7
+    chapters:
+    - file: weekly-materials/week07/lecture/Week07_Notes_KR.ipynb
+      title: "Prof. Reid's Notebook"
