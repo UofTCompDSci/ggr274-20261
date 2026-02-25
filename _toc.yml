@@ -23,15 +23,15 @@ parts:
   - caption: Final Project
     chapters:
     - file: project/GGR274_Project_Instruction.ipynb
-      title: DRAFT Final Project Instructions
+      title: Final Project Instructions
     - file: project/proposal/GGR274_Project_Proposal.ipynb
-      title: DRAFT Final Project Proposal
+      title: Final Project Proposal
     - file: project/GGR274_Project_Template.ipynb
-      title: DRAFT Final Project Template
+      title: Final Project Template
     - file: project/GGR274_Project_Data_Guide.ipynb
-      title: DRAFT Final Project Data Guide
+      title: Final Project Data Guide
     - file: project/GGR274_Project_Slides_Guide.ipynb
-      title: DRAFT Final Project Slides Guide
+      title: Final Project Slides Guide
   
   - caption: Week 1
     chapters:
