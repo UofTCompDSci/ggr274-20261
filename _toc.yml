@@ -123,6 +123,8 @@ parts:
       title: "Prof. Reid's Notebook"
     - file: weekly-materials/week07/lecture/Week07_Lecture_AR.ipynb
       title: "Prof. Ramiller's Notebook"
+    - file: weekly-materials/week07/lecture/Week07_Notes_AR.ipynb
+      title: "Prof. Ramiller's Notebook (Solutions)"
     - file: weekly-materials/week07/lab/Lab_7.ipynb
       title: "Lab 7"
     - file: weekly-materials/week07/homework/Homework_7.ipynb
