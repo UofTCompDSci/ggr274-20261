@@ -130,3 +130,10 @@ parts:
     - file: weekly-materials/week07/homework/Homework_7.ipynb
       title: "Homework 7"
 
+
+  - caption: Week 8
+    chapters:
+    - file: weekly-materials/week08/lecture/Week08_Lecture_KR.ipynb
+      title: "Prof. Reid's Notebook"
+    - file: weekly-materials/week08/lab/Lab_8.ipynb
+      title: "Lab 8"
