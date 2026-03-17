@@ -152,3 +152,12 @@ parts:
       title: "Lab 9"
     - file: weekly-materials/week09/homework/Homework_9.ipynb
       title: "Homework 9"
+
+  - caption: Week 10
+    chapters:
+    - file: weekly-materials/week10/lecture/Week10_Lecture_AR.ipynb
+      title: "Prof. Ramiller's Notebook"
+    - file: weekly-materials/week10/lab/Lab_10.ipynb
+      title: "Lab 10"
+    - file: weekly-materials/week10/homework/Homework_10.ipynb
+      title: "Homework 10"
