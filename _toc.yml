@@ -161,3 +161,8 @@ parts:
       title: "Lab 10"
     - file: weekly-materials/week10/homework/Homework_10.ipynb
       title: "Homework 10"
+
+  - caption: Week 11
+    chapters:
+    - file: weekly-materials/week11/lecture/Week11_Lecture_AR.ipynb
+      title: "Prof. Ramiller's Notebook"
