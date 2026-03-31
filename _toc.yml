@@ -173,6 +173,6 @@ parts:
     chapters:
     - file: weekly-materials/week12/lecture/Week12_Lecture_KR.ipynb
       title: "Prof. Reid's Notebook"
-    - file: weekly-materials/week12/lecture/Week12_Lecture_KR.ipynb
+    - file: weekly-materials/week12/lecture/Week12_Lecture_AR.ipynb
       title: "Prof. Ramiller's Notebook"
   
